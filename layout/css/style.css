@@ -1,0 +1,162 @@
+
+body {
+    background-color: #d0c8c8;
+
+}
+.barre{
+  padding: 10px;
+  background-color: white;
+  
+}
+ .login{
+ 	width:  374px;
+ 	margin: 0 auto;
+ }
+.login input{
+	margin: 10px;
+
+}
+
+.login .connecter{
+	color: #337ab7;
+}
+.login .creercompte{
+	color: #5cb85c;
+}
+.login h3{
+	color: #1b9820;
+	cursor: pointer;
+}
+.login h3 span{
+	
+	cursor: pointer;
+}
+.signup{
+	display: none;
+}
+.information{
+
+	margin-top: 30px ; 
+}
+.errors{
+	   width:  374px;
+ 	    margin-left: 0;
+
+}
+.ajout{
+	
+        font-size: 35px;
+    margin-bottom: 31px;
+    /* margin: auto; */
+    margin-right: 24px;
+    margin-left: 9px;
+    max-width: 351px;
+    background-color: #08f508;
+    padding: 10px;
+    border-left: 10px solid #cd6858;
+}
+.errors .msg {
+    color: red;
+    /* margin: auto; */
+    margin-right: 24px;
+    margin-left: 9px;
+    max-width: 351px;
+    background-color: #fff;
+    padding: 10px;
+    border-left: 10px solid #cd6858;
+}
+.information ul{
+	padding: 0;
+	margin: 0;
+}
+.information ul li{
+	padding: 10px;
+}
+.information ul li:nth-child(odd){
+	background-color: #EEE;
+}
+.information ul li span{
+	display: inline-block;
+	width: 120px
+}
+.thumbnail .date{
+	text-align: right;
+    color: currentColor;
+    font-weight: bold;
+}
+/* debut article.php*/
+.item-info ul{
+	padding: 0;
+	margin: 0;
+}
+.item-info ul{
+	padding: 10px;
+}
+.item-info ul li:nth-child(odd){
+	background-color: #ded6d6;
+}
+.item-info ul li span{
+	    display: inline-block;
+     padding: 2px; 
+    width: 120px;
+    padding-top: 19px;
+    padding-bottom: 10px;
+    margin-right: 37px;
+}
+
+.ajout-commentaire h3{
+		margin: 0;
+	}
+
+	.ajout-commentaire textarea{
+		margin: 10px;
+		display: block;
+		width: 500px;
+		height: 130px;
+	}
+	
+/* fin article.php*/
+.item-box {
+	position: relative;
+}
+.item-box .cation p{
+	height: 45px;
+    max-height: 50px;
+
+}.item-box .price {
+     background-color: white;
+    position: absolute;
+        padding:11px;
+       font-weight: bold;
+}
+.img-circle {
+    border-radius: 50%;
+    width: 45px;
+}
+.panel-body .profil{
+
+	margin-top: 10px;
+	font-size: medium;
+}
+.panel-body .profil a{
+
+	text-decoration: none;
+}
+.show-password{
+    position: absolute;
+    top: 11px;
+    right: -19px;
+
+
+
+}
+.item-box .modifier{
+
+   margin-left: 5px;
+
+}
+.panel-body .item-box .pull-right{
+    margin-left: 10px;
+    display: none;
+}
+

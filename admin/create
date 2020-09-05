@@ -1,0 +1,72 @@
+
+    <form method="post" action="/eleves" enctype="multipart/form-data">
+        {{csrf_field()}}
+        <div class="form-horizontal">
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-2" style="margin-bottom: 20px;">
+                        <label >Firstname</label>
+                    </div>
+
+                    <div class="col-sm-8">
+
+                        <input type="text" name="Firstname" class="form-control  input{{$errors->has('Firstname') ? 'alert alert-danger':''}}"  value="{{old('Firstname')}}"placeholder="Enter Firstname">
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-2"style="margin-bottom: 20px; ">
+                            <label >Lastname</label>
+                        </div>
+                        <div class="col-sm-8">
+
+                            <input type="text" name="Lastname" class="form-control  input{{$errors->has('Lastname') ? 'alert alert-danger':''}}"value="{{old('Lastname')}}" placeholder="Enter Lastname">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-2" >
+                            <label >Image</label>
+                        </div>
+                        <div class="col-sm-8">
+
+                            <input type="file"  class="form-control " name="file" placeholder="Enter file">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-2" >
+                            <label >Level</label>
+                        </div>
+                        <div class="col-sm-8">
+
+                            <input type="number" max="3" class="form-control  input{{$errors->has('Level') ? 'alert alert-danger':''}}"  value="{{old('Level')}}" name="Level" placeholder="Enter Lavel">
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <button type="submit" class="btn btn-primary">Add</button>
+
+            </div>
+            @if($errors->any())
+                <div class="alert alert-danger">
+                    <ul>
+                        @foreach($errors->all() as $error)
+                            <li> {{ $error }}</li>
+
+                        @endforeach
+                    </ul>
+
+                </div>
+        </div>
+        @endif
+    </form>

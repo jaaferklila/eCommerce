@@ -1,0 +1,236 @@
+* {
+     -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    background-color: #d0c8c8;
+
+}
+ .navbar {
+    border-radius: 0px;
+}
+.login{
+
+    display: none;
+}
+.login{
+
+	width: 300px;
+	margin: 100px auto;
+  
+}
+.login input{
+
+	margin: 10px
+}
+
+.modifier {
+    font-size: 22px;
+    background-color: #FFEB3B;
+    width: 159px;
+    padding: 10px;
+    margin: 71px auto;
+}
+
+    .liste {
+    font-size: 22px;
+    background-color: #FFEB3B;
+    width: 158px;
+    padding: 6px;
+    margin: 53px auto;
+}
+
+  .main-table tr:first-child td{
+    color: white;
+    background-color: black;
+
+  }
+   .table-bordered th, .table-bordered td {
+    border: 1px solid #eff5f9;
+    background-color: white;
+    vertical-align: middle !important;
+}
+/*
+dashbord
+*/
+.demention span{
+    width:374px;
+    height: 20px;
+
+}
+.home-stat .statestique{
+
+background-color: #EEE;
+border:1px solid #CCC;
+padding: 20px;
+font-size: 15px;
+color: white;
+
+
+}
+
+.home-stat .statestique span{
+
+    display: block;
+    font-size: 50px;
+
+}
+ .home-stat .totmembre{
+    background-color: #3438db;
+    border-radius: 16px;
+}
+.home-stat .totarticle{
+    background-color: #3438db;
+    border-radius: 16px;
+}
+.home-stat .active{
+    border-radius: 16px;
+    background-color: #c0392b;
+}
+.home-stat .rang{
+    border-radius: 16px;
+    background-color: #d35400;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #3498db;
+}
+.dropdown-menu {  background-color: #3498db;
+                   border:none;padding: 0px;
+}
+.dropdown-menu a{  background-color: #3498db;
+}
+.fa, .fas {
+    font-weight: 900;
+    width: 2.25em;
+}
+.show-password{
+    position: absolute;
+    top: 11px;
+    right: -12px;
+
+
+
+}
+
+
+/*
+page categorie
+*/
+
+@media(max-width: 767px){
+
+
+  .pull-right{
+    float: none!important;
+  }
+  .categorie .cat .hidden-bouttons {
+   left: 0;
+}
+
+ .categorie .cat h3 {
+    margin-top: 40px;
+    
+    cursor: pointer;
+}
+}
+
+
+
+
+
+ .categorie .panel-body{
+    padding: 0
+}
+.categorie .cat:last-of-type ~ hr{
+    display: none;
+}
+.categorie hr{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 0;
+    border-top: 2px dotted #ded4d4;
+}
+
+@media(min-width: 768px){
+
+.categorie .cat h3 {
+    margin-top: 0px;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+}
+.categorie .cat  {
+padding: 15px;
+position: relative;
+overflow: hidden;
+}
+.categorie .cat:hover{
+    background-color: #EEE;
+}
+
+.categorie .cat .hidden-bouttons {
+          position: absolute;
+          top: 0px;
+          right: 20px;
+
+}
+.categorie .cat .hidden-bouttons a{
+         
+              margin: 10px;
+
+}
+
+
+.categorie .option a{
+    text-decoration: none;
+     color: #888;
+}
+.categorie .option span{
+     color: #888;
+     cursor: pointer;
+ }
+
+.categorie .option .active{
+    
+    
+     color: red;
+}
+/*
+Fin page categorie
+*/
+/*
+page dahbord
+*/
+.lasted{
+  margin-top: 30px;
+}
+.latest-users{
+  margin-bottom: 0;
+}
+.latest-users li:nth-child(odd) {
+  background-color: #EEE;
+}
+.latest-users li{
+  padding:5px ;
+  overflow: hidden;
+}
+.lasted .toggle-info{
+  color: #999;
+  cursor: pointer;
+}
+.lasted .toggle-info:hover{
+  color: #444;
+}
+.latest-users .btn-success{
+  padding:3px 8px;
+
+  
+}
+.barre{
+  padding: 10px;
+  background-color: white;
+}
+ 
